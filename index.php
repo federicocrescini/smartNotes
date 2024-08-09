@@ -111,7 +111,7 @@ fclose($file);
 	jQuery(function($){
 			
 		// apro un socket dalla tupla  "localhost:80"	
-		var websocket_server = new WebSocket("ws://localhost:81/");
+		var websocket_server = new WebSocket("ws://localhost:80/");
 			
 		// vvvvvvvvvvvv ON OPEN vvvvvvvvvvvv
 		websocket_server.onopen = function(e) {
@@ -150,7 +150,7 @@ fclose($file);
 	jQuery(function($){
 			
 		// apro un socket dalla tupla  "localhost:8080"	
-		var websocket_server = new WebSocket("ws://localhost:81/");
+		var websocket_server = new WebSocket("ws://localhost:80/");
 		// vvvvvvvvvvvv ON OPEN vvvvvvvvvvvv
 		websocket_server.onopen = function(e) {
 			websocket_server.send(
