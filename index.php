@@ -20,7 +20,7 @@ if(isset($_SESSION['Id'])){
 	$Id = $_SESSION['Id'];
 	
 	function primoTagLibero($Id){
-		$path = "./elenco/" . $Id;
+		$path = "./" . $Id;
 		$file = fopen($path, "r");
 		if(!$file){
 			return false;
@@ -37,7 +37,7 @@ if(isset($_SESSION['Id'])){
 	}
 
 	function stampaTabella($Id){
-		$path = "./elenco/" . $Id;
+		$path = "./" . $Id;
 		$file = fopen($path, "r");
 		if(!$file){
 			return "errore apertura file";
@@ -69,7 +69,7 @@ if(isset($_SESSION['Id'])){
 
 // -------------- OTTENIMENTO LINK DA FILE TRAMITE ID --------------
 // v TROVO IL FILE DOVE UN UTENTE MEMORIZZA I LINK
-$path = "./elenco/" . $Id;
+$path = "./" . $Id;
 $file = fopen($path, "r");
 
 if(!$file){
