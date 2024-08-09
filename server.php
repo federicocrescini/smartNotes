@@ -128,7 +128,7 @@ class Chat implements MessageComponentInterface {
 		echo "!!!errore!!!\n";
 	}
 }
-$server = new Ratchet\App('localhost', 81);
+$server = new Ratchet\App('localhost', 80);
 $server->route('/', new Chat, ['*']);
 $server->run();
 ?>
