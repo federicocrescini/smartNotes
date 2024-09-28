@@ -7,11 +7,13 @@
 > I file di questa repo sono ideati per l'utilizzo in un ambiente locale già predisposto all'uso di Ratchet e sono utili solamente per una verifica del suo funzionamento.
 > Contengono una versione molto semplificata dello scheletro del progetto, con le funzioni commentate per capirne la logica. Per qualsiasi utilizzo non didattico necessita di revisioni per la messa in sicurezza. 
 
+> Per utilizzare questi file, aggiungere una cartella "ws" ed installarvi dentro Ratchet.
+
 ---
 
 ### Logica
 
-WebApp costruita tramite [Ratchet](http://socketo.me/docs/deploy) che permette ad un utente loggato su più dispositivi di aprire link su entrami i browser.
+WebApp costruita tramite [Ratchet](http://socketo.me/) che permette ad un utente loggato su più dispositivi di aprire link su entrami i browser.
 
 Client e Server WebSocket comunicano tramite messagi json:
 	richiesta di connessione: { type = 'conn' , user_id }
