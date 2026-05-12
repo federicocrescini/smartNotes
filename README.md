@@ -2,10 +2,8 @@
 
 > Webapp per la gestione di contenuti su più dispositivi in maniera dinamica.
  
-> Tutto il progetto è stato completamente ideato, strutturato, realizzato e gestito in maniera autonoma e indipendente.
-
-> I file di questa repo sono ideati per l'utilizzo in un ambiente locale già predisposto all'uso di Ratchet e sono utili solamente per una verifica del suo funzionamento.
-> Contengono una versione molto semplificata dello scheletro del progetto, con le funzioni commentate per capirne la logica. Per qualsiasi utilizzo non didattico necessita di revisioni per la messa in sicurezza. 
+> Repo ideata per un utilizzo locale già predisposto all'uso di Ratchet, file utili solamente per una verifica del suo funzionamento.
+> Contengono una versione molto semplificata dello scheletro del progetto, con le funzioni commentate per capirne la logica. Per un utilizzo non didattico necessita di revisioni per la messa in sicurezza. 
 
 > Per utilizzare questi file, aggiungere una cartella "ws" ed installarvi dentro Ratchet.
 
